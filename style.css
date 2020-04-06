@@ -51,6 +51,8 @@ body {
 .fields {
   width: 100%;
   padding: 75px 5px 5px 5px;
+  border: 1px solid red;
+  height: 50%;
 }
 
 .fields input {
