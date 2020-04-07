@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
@@ -14,66 +20,70 @@ body {
   justify-content: center;
   color: #555;
   background: #ecf0f3;
+  font-size: 1.4rem;
 }
 
 .login-div {
   width: 25%;
   height: 75%;
-  padding: 60px 35px 35px 35px;
-  border-radius: 40px;
+  padding: 4rem 3.5rem 3.5rem 3.5rem;
+  border-radius: 4rem;
   background: #ecf0fe;
-  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  box-shadow: 1.3rem 1.3rem 2rem #cbced1, -1.3rem -1.3rem 2rem #fff;
+  margin: 0 auto;
 }
 
 .logo {
   background-image: url(/img/logo.png);
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   margin: 0 auto;
-  box-shadow: 0 0 2px #5f5f5f, 0 0 0 5px #ecf0fe, 8px 8px 15px #a7aaaf, -8px -8px 15px #fff;
+  box-shadow: 0 0 0.2rem #5f5f5f, 0 0 0 0.5rem #ecf0fe, 0.8rem 0.8rem 1.5rem #a7aaaf, -0.8rem -0.8rem 1.5rem #fff;
 }
 
 .title {
   text-align: center;
-  font-size: 28px;
-  padding-top: 24px;
-  letter-spacing: 0.5px;
+  font-size: 2.8rem;
+  padding-top: 2.4rem;
+  letter-spacing: 0.05rem;
 }
 
 .sub-title {
   text-align: center;
-  font-size: 15px;
-  padding-top: 7px;
-  letter-spacing: 3px;
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+  letter-spacing: 0.3rem;
 }
 
 .fields {
   width: 100%;
-  padding: 75px 5px 5px 5px;
-  border: 1px solid red;
-  height: 50%;
+  padding: 2rem 0.5rem 0 0.5rem;
+  height: 40%;
+  border: none;
 }
 
 .fields input {
   border: none;
   outline: none;
   background: none;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #555;
-  padding: 20px 10px 20px 5px;
+  padding: 2rem 1rem 2rem 0.5rem;
+  height: 2rem;
+  width: 50%;
 }
 
 .username,
 .password {
-  margin-bottom: 30px;
-  border-radius: 25px;
-  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  margin-bottom: 3rem;
+  border-radius: 2.5rem;
+  box-shadow: inset 0.8rem 0.8rem 0.8rem #cbced1, inset -0.8rem -0.8rem 0.8rem #fff;
 }
 
 .fields svg {
-  height: 22px;
-  margin: 0 10px -3px 25px;
+  height: 2.2rem;
+  margin: 1.3rem 1rem -0.3rem 2.5rem;
 }
 
 .signin-button {
@@ -81,15 +91,15 @@ body {
   outline: none;
   cursor: pointer;
   width: 100%;
-  height: 60px;
-  border-radius: 30px;
-  font-size: 20px;
+  height: 6rem;
+  border-radius: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
   color: #fff;
   text-align: center;
   background-color: #24cfaa;
-  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  box-shadow: 0.3rem 0.3rem 0.8prem #b1b1b1, -0.3rem -0.3rem 0.8rem #fff;
   transition: 0.5s;
 }
 
@@ -102,12 +112,12 @@ body {
 }
 
 .link {
-  padding-top: 20px;
+  padding-top: 2rem;
   text-align: center;
 }
 
 .link a {
   text-decoration: none;
   color: #aaa;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
